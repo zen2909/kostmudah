@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Users;
+use App\Models\User;
 use Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
@@ -33,7 +33,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/admin');
+            return redirect()->intended('/dashboard');
         }
 
         return back()->withErrors([
@@ -48,10 +48,10 @@ class AuthController extends Controller
             'no_telp' => 'required|string|unique:users,no_telp',
             'pekerjaan' => 'required|string',
             'email' => 'required|email|unique:users,email',
-            'password' => 'required|min:8|confirmed',
+            'password' => 'required|min:8',
         ]);
 
-        Users::create([
+        User::create([
             'nama' => $request->nama,
             'no_telp' => $request->no_telp,
             'pekerjaan' => $request->pekerjaan,
@@ -59,7 +59,7 @@ class AuthController extends Controller
             'password' => Hash::make($request->password)
         ]);
 
-        return redirect('/')->with('success', 'Registrasi berhasil');
+        return redirect()->route('signin.index')->with('success', 'Registrasi berhasil');
         ;
     }
 
