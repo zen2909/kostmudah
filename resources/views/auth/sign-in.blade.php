@@ -55,7 +55,7 @@
 
                                 <div class="relative">
                                     <input type="password" id="password" name="password"
-                                        class="peer py-3 ps-14 pe-16 block w-full border-b-2 border-gray-200 text-[24px] focus:border-blue-500 focus:outline-none focus:ring-0 @error('password') border-red-500 @else border-gray-200 @enderror"
+                                        class="peer py-3 ps-14 pe-16 block w-full border-b-2 border-gray-200 text-[24px]focus:border-blue-500 focus:outline-none focus:ring-0 @error('password') border-red-500 @else border-gray-200 @enderror"
                                         placeholder="Password">
                                     <span
                                         class="absolute inset-y-2 start-0 flex items-center text-[39px] text-gray-500 iconify"
