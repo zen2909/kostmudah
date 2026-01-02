@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.auth')
 
 @section('title', 'Sign-up')
 
@@ -123,19 +123,18 @@
             </div>
         </div>
 
-    @endsection
 
-    <script>
-        function togglePassword() {
-            const passwordInput = document.getElementById('password');
-            const icon = document.getElementById('togglePasswordIcon');
+        <script>
+            function togglePassword() {
+                const passwordInput = document.getElementById('password');
+                const icon = document.getElementById('togglePasswordIcon');
 
-            if (passwordInput.type === 'password') {
-                passwordInput.type = 'text';
-                icon.setAttribute('data-icon', 'ep:view');
-            } else {
-                passwordInput.type = 'password';
-                icon.setAttribute('data-icon', 'ep:hide');
+                if (passwordInput.type === 'password') {
+                    passwordInput.type = 'text';
+                    icon.setAttribute('data-icon', 'ep:view');
+                } else {
+                    passwordInput.type = 'password';
+                    icon.setAttribute('data-icon', 'ep:hide');
+                }
             }
-        }
-    </script>
+        </script>

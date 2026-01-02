@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import twElements from "tw-elements/plugin.cjs";
 import flowbite from "flowbite/plugin";
+import scrollbarHide from "tailwind-scrollbar-hide";
 
 export default {
     content: [
@@ -20,14 +21,9 @@ export default {
 
     theme: {
         extend: {
-            fontFamily: {
-                sans: ["Noto Sans", "ui-sans-serif", "system-ui"],
-                inter: ["Inter", "sans-serif"],
-                poppins: ["Poppins", "sans-serif"],
-                nunito: ["Nunito", "sans-serif"],
-            },
+            
         },
     },
 
-    plugins: [twElements, flowbite],
+    plugins: [twElements, flowbite, scrollbarHide,],
 };

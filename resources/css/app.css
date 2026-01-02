@@ -9,12 +9,43 @@
     --font-poppins: "Poppins", sans-serif;
     --font-inter: "Inter", sans-serif;
     --font-nunito: "Nunito", sans-serif;
+
+    --color-utama: #06283D;
+    --color-lighter-blue : #D3EAFF;
 }
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    scrollbar-width: none;
+}
+/* Tambahkan ini di app.css Anda */
+.hide-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+}
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE & Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+}
 @plugin "flyonui";
 @source "./node_modules/flyonui/dist/index.js";
 @source "./node_modules/flyonui/dist/accordion.js";

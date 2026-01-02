@@ -84,7 +84,7 @@
                                         Kos Bu Jamilah
                                     </h5>
                                     <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                        <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                        <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                     </button>
                                 </div>
 
@@ -134,7 +134,7 @@
                                         Kos Bu Jamilah
                                     </h5>
                                     <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                        <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                        <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                     </button>
                                 </div>
                                 <div class="space-y-2 sm:space-y-3">
@@ -177,7 +177,7 @@
                                         Kos Bu Jamilah
                                     </h5>
                                     <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                        <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                        <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                     </button>
                                 </div>
                                 <div class="space-y-2 sm:space-y-3">
@@ -220,7 +220,7 @@
                                         Kos Bu Jamilah
                                     </h5>
                                     <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                        <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                        <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                     </button>
                                 </div>
                                 <div class="space-y-2 sm:space-y-3">
@@ -313,7 +313,7 @@
                                     Kos Bu Jamilah
                                 </h5>
                                 <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                    <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                    <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                 </button>
                             </div>
 
@@ -363,7 +363,7 @@
                                     Kos Bu Jamilah
                                 </h5>
                                 <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                    <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                    <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                 </button>
                             </div>
                             <div class="space-y-2 sm:space-y-3">
@@ -406,7 +406,7 @@
                                     Kos Bu Jamilah
                                 </h5>
                                 <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                    <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                    <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                 </button>
                             </div>
                             <div class="space-y-2 sm:space-y-3">
@@ -449,7 +449,7 @@
                                     Kos Bu Jamilah
                                 </h5>
                                 <button class="flex-shrink-0 text-gray-400 hover:text-red-500 transition-colors">
-                                    <span class="iconify text-xl sm:text-2xl" data-icon="bx:like"></span>
+                                    <span class="iconify text-xl sm:text-2xl" data-icon="bxs:like"></span>
                                 </button>
                             </div>
                             <div class="space-y-2 sm:space-y-3">

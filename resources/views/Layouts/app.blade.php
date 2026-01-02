@@ -9,10 +9,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="bg-white">
+<body>
 
     {{-- NAVBAR --}}
-    <nav class="sticky-top bg-white fixed w-full z-20 top-0 start-0">
+    <nav class=" bg-white fixed w-full z-20 top-0 start-0">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto pt-4 pb-4">
             <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="{{ asset('images/kostmudah.png') }}" class="h-10" alt="kostmudah Logo" />
@@ -91,7 +91,9 @@
         </div>
     </nav>
 
-    @yield('content')
+    <main class="pt-24 min-h-screen">
+        @yield('content')
+    </main>
 
     {{-- FOOTER --}}
     <footer class="bg-white">
